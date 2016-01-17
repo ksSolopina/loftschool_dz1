@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru-RU" g_init="6852">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CEO -->
+	<title>Страница авторизации</title>
+	<meta name="desciption" content="Сайт-портфолио Солопиной Ксении">
+	<meta name="keywords" content="портфолио, Солопина, FRONTEND разработчик">
+	<meta name="author" content="Солопина Ксения">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="bower/normalize.css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="bower/qtip2/jquery.qtip.css">
+	<link rel="stylesheet" type="text/css" href="fonts/fira.css">
+    <link rel="stylesheet" type="text/css" href="fonts/proximanovacond-semibold.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/login-form.css">
+	<!-- modernizer -->
+	<script src="bower/modernizer/modernizr.js"></script>
+</head>
+	<body>
+		<!--[if lt IE 7]>
+		<p class="browsehappy">Вы испоьзуете устаревший браузер. Пожалуйста <a href="http://browsehappy.com">обновите</a>его.</p>
+		<![endif]-->
+		<div class="wrapper helper">
+			<div class="lg-form-conteiner">
+				<div class=" lg-form-content">
+					<div class="content-form-header">
+						<h2>Авторизируйтесь</h2>
+					</div>
+					<div class="lgform">
+						<form id="login-form" class="login-form" action="/echo" method="post">
+							<span class="contact">Логин</span>
+							<label for="login">
+								<input id="login" type="text" name="login" placeholder="Введите логин" qtip-content="введите логин" qtip-position="left">
+							</label>
+							<span class="contact">Пароль</span>
+							<label for="password">
+								<input id="password" type="password" name="password" placeholder="Введите пароль" qtip-content="введите пароль" qtip-position="left">
+							</label>
+							<button type="submit" class="btn">Войти</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="page-footer">
+			<div class="container">
+				<div class="copyright">©&nbsp;2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</div>
+			</div>
+		</footer>
+    <script src="./js/jquery.js"></script>
+    <script src='./js/placeholders.js'></script>
+    <script src="bower/qtip2/jquery.qtip.js"></script>
+    <script src="./js/validation.js"></script>
+    <script src="./js/login-form.js"></script>
+</body>
+</html>

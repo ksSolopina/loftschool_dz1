@@ -1,0 +1,74 @@
+.content-feedback-form{
+float:right;
+background-color:#eff3f7;
+width: 650px;
+border-radius: 6px;
+margin-bottom: 40px;
+}
+.content-feedback-form .fbform{
+    margin: 0 auto;
+    max-width: 403px;
+
+}
+.fbform .contact-item{
+    display: inline-block;
+    width: 100%;
+    font-size: 0;
+    margin-bottom: 17px;
+}
+.fbform .contact-item:nth-child(2){
+    margin-left: -5px;
+}
+.fbform .contact-item:first-child{
+    margin-right: 4%;
+}
+
+.fbform input, textarea,.placeholder{
+    font-size: 13px;
+}
+.fbform .image-code{
+    background-color: #fbfcfd;
+    border: 1px solid #48cbe8;
+    border-radius: 3px;
+    padding: 15px;
+    width: 161px;
+    max-height: 46px;
+    overflow: hidden;
+    float:left;
+}
+.fbform textarea:-moz-placeholder {
+    font-size: 13px;
+}
+.fbform .column{
+    width: 48%;
+}
+.fbform .contact-item-code{
+    float: right;
+    margin-top: 18px;
+}
+.btn_sub{
+    box-shadow: 0px 2px #3ba8c0;
+    background-color: #48cbe8;
+    float:left;
+}
+.btn_sub:hover{
+    box-shadow: 0px 2px #48cbe8;
+}
+.btn_sub:active{
+    box-shadow: 0px -2px #3ba8c0;
+    border: 0;
+}
+.btn_res{
+    box-shadow: 0px 2px #687b8f;
+    background-color: #849db5;
+    float:right;
+}
+.btn_res:hover{
+    box-shadow: 0px 2px  #849db5;
+}
+.btn_res:active{
+    box-shadow: 0px -2px #687b8f;
+}
+.g-recaptcha {
+    padding-bottom: 15px;
+}
